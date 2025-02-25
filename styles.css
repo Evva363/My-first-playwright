@@ -11,6 +11,14 @@ header nav ul {
     text-align: center;
 }
 
+main h1 {
+    margin: 10px 0 10px 0;
+}
+
+main .search-bar {
+    margin-bottom: 10px;
+}
+
 header nav ul {
     list-style-type: none;
 }
@@ -31,6 +39,7 @@ main .image-container img {
 
 main .description p {
     width: 500px;
+    margin: 0 auto;
 }
 
 footer {
