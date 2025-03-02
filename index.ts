@@ -1,4 +1,4 @@
-// let vs const
+/* // let vs const
 let number: number = 5;
 number = 10;
 console.log("number", number);
@@ -51,4 +51,45 @@ stringValue = 10;
 stringValue = 10 === 10;
 stringValue = [10, 20, 30];
 
-console.log("stringValue", stringValue);
+console.log("stringValue", stringValue); */
+
+//Ternary operator
+
+/* const isPositiveNum = 5 > 0 ? "The number is positive" : "The number is negative";
+console.log(typeof isPositiveNum);
+
+const age: number = 30;
+const myName: string = "Pesho";
+
+const personDescription = age < 40
+    ? `${myName} is yonger than 40. He is ${age} old.`
+    : `${myName} is older than 40. He is ${age} old.`
+
+console.log("personDescription", personDescription);
+
+const personName = "His name is Pesho";
+console.log("personName", personName); */
+
+//If else statement
+
+/* if (age < 40) {
+    console.log('Age is lower than 40');
+}
+else {
+    console.log('Age is greater than 40');
+} */
+
+const num: number = 50;
+
+if (num < 10) {
+    console.log('Number is lower than 10.');
+}
+else if (num > 100) {
+    console.log('Number is greater than 100');
+}
+else { console.log("The number is between 10 and 100!") };
+
+type PersonInfoType = string | number;
+
+const personNameInf: PersonInfoType = "Ivan";
+const personAgeInf: PersonInfoType = "25";
