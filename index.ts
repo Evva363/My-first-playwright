@@ -79,7 +79,7 @@ else {
     console.log('Age is greater than 40');
 } */
 
-const num: number = 50;
+/* const num: number = 50;
 
 if (num < 10) {
     console.log('Number is lower than 10.');
@@ -89,7 +89,24 @@ else if (num > 100) {
 }
 else { console.log("The number is between 10 and 100!") };
 
-type PersonInfoType = string | number;
 
+//type Aliases
+
+type PersonInfoType = string | number;
 const personNameInf: PersonInfoType = "Ivan";
-const personAgeInf: PersonInfoType = "25";
+const personAgeInf: PersonInfoType = "25"; */
+
+/* type Status = "approved" | "rejected" | "pending" | "fullfiled";
+const currentStatus: Status = "fullfiled"
+ */
+type PersonData = {
+    name: string;
+    lastName: string;
+    age: number;
+    city: "Sofia" | "Plovdiv" | "Varna";
+}
+
+/* function displayPersonData({ name, lastName, age }: PersonData) {
+    return `${name} ${lastName} is ${age} years old.`
+} */
+
